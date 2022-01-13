@@ -17,7 +17,6 @@
 
 .artistes__article {
     font-family: $font-raleway;
- //   color: $body-text-color;
     margin: 2em;
     p {
         margin-bottom: 1.5em;
@@ -43,7 +42,7 @@
 
 .artistes__section-container {
     @include grid-column-repeat(2, 220px, 2fr, 4rem, 1rem);
-    @media screen and (max-width: 850px) {
+    @media screen and (max-width: 900px) {
         grid-template-columns: repeat(1, minmax(200px, 1fr));
       }
     @media screen and (max-width: 550px) {
