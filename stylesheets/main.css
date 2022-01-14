@@ -683,6 +683,12 @@ li:hover {
   }
 }
 
+@media screen and (max-width: 550px) {
+  .li_navbar:nth-child(4) {
+    display: none;
+  }
+}
+
 .artistes__article a {
   text-align: center;
   color: #ECDBBA;
@@ -720,8 +726,8 @@ li:hover {
 }
 
 .map {
-  -webkit-box-shadow: 0 4px 20px rgba(180, 177, 177, 0.795);
-          box-shadow: 0 4px 20px rgba(180, 177, 177, 0.795);
+  -webkit-box-shadow: 0 4px 19.9px rgba(180, 177, 177, 0.795);
+          box-shadow: 0 4px 19.9px rgba(180, 177, 177, 0.795);
 }
 
 .article-text-container {
@@ -1053,6 +1059,20 @@ figure {
   row-gap: 1rem;
   max-width: 100%;
   padding: 1rem;
+}
+
+@media screen and (max-width: 900px) {
+  .blogMain {
+    -ms-grid-columns: (minmax(200px, 1fr))[1];
+        grid-template-columns: repeat(1, minmax(200px, 1fr));
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .blogMain {
+    -ms-grid-columns: (minmax(200px, 1fr))[1];
+        grid-template-columns: repeat(1, minmax(200px, 1fr));
+  }
 }
 
 .blogMain img {
