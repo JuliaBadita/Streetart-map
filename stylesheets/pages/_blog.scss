@@ -1,4 +1,10 @@
 .blogMain {
+    @media screen and (max-width: 900px) {
+        grid-template-columns: repeat(1, minmax(200px, 1fr));
+      }
+    @media screen and (max-width: 550px) {
+        grid-template-columns: repeat(1, minmax(200px, 1fr));
+      }
     @include grid-column-repeat(auto-fit, 500px, 1fr, 1rem, 1rem);
     max-width: 100%;
     padding: 1rem;
