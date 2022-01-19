@@ -10,5 +10,6 @@
     "humans.txt": true,
     "LICENSE": true,
     "LICENSE.txt": true,
-  }
+  },
+  "liveServer.settings.port": 5501
 }

@@ -113,9 +113,10 @@ figure {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 4rem auto 10rem auto;
+  margin: 4rem 0 10rem 0;
   row-gap: 3rem;
 }
+
 .parcours__article {
   @include bgcolor-shadow-padding-radius;
   margin: 0 2rem;
@@ -137,10 +138,11 @@ figure {
     align-self: center;
     color: #ece7dd;
     position: relative;
-    width: 30rem;
+    width: 40%;
     padding: 1rem 0 1rem 2rem;
     background: rgba(194, 100, 100, 0.726);
   }
+
   // p::before {
   //   content:"";
   //   position: absolute;
@@ -169,6 +171,9 @@ figure {
 
   @media screen and (max-width: $inmanquable-media-bigger) {
     max-width: 65rem;
+  }
+  @media screen and (max-width: $home-media-medium) {
+    max-width: 50rem;
   }
   @media screen and (max-width: $home-media-medium) {
     max-width: 50rem;
